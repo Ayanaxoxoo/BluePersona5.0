@@ -1,0 +1,41 @@
+
+.circle{
+    border:2px solid black;
+    margin-right: 30px;
+    display:block;
+ 
+  width: 25%;
+  height:270px;
+  padding-top: 5%;
+  border-radius: 90%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 200;
+  background-image: radial-gradient(#7a9adf,#939cbb);
+  border-color: #566585;
+  margin-left: 9%;
+  margin-bottom: 5%
+  
+}
+
+
+.circletext{
+    text-align: center;
+    font-size: 100%;
+}
+
+
+
+#character{
+  position: absolute;
+  top: 40%;
+  right: 1%;
+  width: 30%;
+  height: 400px;
+  pointer-events: none;
+  
+}
+
+#ENFJ_heading{
+  text-align: center;
+  margin-bottom: 5%
+}

@@ -1,0 +1,79 @@
+
+.circle{
+    border:2px solid black;
+    margin-right: 30px;
+    display:block;
+ 
+  width: 25%;
+  height:270px;
+  padding-top: 5%;
+  border-radius: 90%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 200;
+  background-image: radial-gradient(#7a9adf,#939cbb);
+  border-color: #566585;
+  margin-left: 9%;
+  margin-bottom: 5%
+  
+}
+
+
+.circletext{
+    text-align: center;
+    font-size: 100%;
+}
+
+
+
+#character{
+  position: absolute;
+  top: 40%;
+  right: 1%;
+  width: 30%;
+  height: 400px;
+  pointer-events: none;
+  
+}
+
+#ENTP_heading{
+  text-align: center;
+  margin-bottom: 5%
+}
+
+#circle2{
+  position: absolute;
+  top: 20vh;
+  width: 18vw;
+  height: 20vh;
+  left: 27%;
+
+}
+
+#circle3{
+  position: absolute;
+  top: 57%;
+  left: 6%;
+  width: 15vw;
+  height: 17vh
+
+}
+
+#circle4{
+  position: absolute;
+  top: 50%;
+  left: 40vh;
+  width: 27vw;
+  height: 35vh;
+}
+
+
+.gelatine {
+  animation: gelatine 0.5s infinite;
+}
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
